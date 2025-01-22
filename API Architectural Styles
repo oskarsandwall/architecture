@@ -1,9 +1,0 @@
-# Architecture
-## API Architectural Styles
-- RESTful
-- GraphQL
-- SOAP
-- gRPC
-- WebSockets
-- Webhooks
-- MQTT

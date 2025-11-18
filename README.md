@@ -13,7 +13,7 @@ So to summarize the two main points are
 ## The How
 So how do you describe things clearly and avoid repetition?
 
-### The traditional "old" method
+### The Traditional "old" Method
 The way things used to be done was that all planning (including architecture) was decided before the actual work/implementation was started. This approach works well when the information model, [functional requirements](https://en.wikipedia.org/wiki/Functional_requirement) and [non-functional requirements](https://en.wikipedia.org/wiki/Non-functional_requirement) are very well defined, but runs into problems if one of the prerequisites are not fullfilled or the change during the implementation faze. Examples of things that can severly impact the implementation faze are changed requirements and problems/bugs which are major and/or discovered late in the project development cycle.
 
 #### Pros of the Waterfall Model
@@ -32,6 +32,17 @@ The way things used to be done was that all planning (including architecture) wa
 * **Resource-intensive initial phase**: The requirements and design phases can be time-consuming and demand significant resources for documentation.
 * **Not suitable for complex or evolving projects**: It is a poor model for long, complex projects or those where requirements are likely to change.
 
+### The Agile Method
+The main ideas from Agile are based on Lean which was coined in the US 1988 and defined 1996. This in turn was based on minimizing wastes (muda) as described by Toyota's Toyotas Production System from the 1950s and 1960s.
+
+**The seven "wastes"** (muda in Japanese), first formulated by Toyota engineer Shigeo Shingo, are:
+1. **superfluous inventory** of raw material and finished goods
+2. **overproduction** (producing more than what is needed now)
+3. **over-processing** (processing or making parts beyond the standard expected by customer),
+4. **transportation** (unnecessary movement of people and goods inside the system)
+5. **excess motion** (mechanizing or automating before improving the method)
+6. **waiting** (inactive working periods due to job queues)
+7. **making defective products** (reworking to fix avoidable defects in products and processes).
 
 ## Different types of architectures
 - [API Architectural Styles](API_Architectural_Styles.md)

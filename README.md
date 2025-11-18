@@ -36,13 +36,13 @@ The way things used to be done was that all planning (including architecture) wa
 The main ideas from Agile are based on Lean which was coined in the US 1988 and defined 1996. This in turn was based on minimizing wastes (muda) as described by Toyota's Toyotas Production System from the 1950s and 1960s.
 
 **The seven "wastes"** (muda in Japanese), first formulated by Toyota engineer Shigeo Shingo, are:
-1. **superfluous inventory** of raw material and finished goods
-2. **overproduction** (producing more than what is needed now)
-3. **over-processing** (processing or making parts beyond the standard expected by customer),
-4. **transportation** (unnecessary movement of people and goods inside the system)
-5. **excess motion** (mechanizing or automating before improving the method)
-6. **waiting** (inactive working periods due to job queues)
-7. **making defective products** (reworking to fix avoidable defects in products and processes).
+1. **superfluous inventory** - of raw material and finished goods
+2. **overproduction** - producing more than what is needed now
+3. **over-processing** - processing or making parts beyond the standard expected by customer
+4. **transportation** - unnecessary movement of people and goods inside the system
+5. **excess motion** - mechanizing or automating before improving the method
+6. **waiting** - inactive working periods due to job queues
+7. **making defective products** - reworking to fix avoidable defects in products and processes
 
 ## Different types of architectures
 - [API Architectural Styles](API_Architectural_Styles.md)

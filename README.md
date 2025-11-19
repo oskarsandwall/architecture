@@ -199,7 +199,7 @@ My strong recommendation is to adopt an interative approach where you start with
 
 
 
-# OLD STUFF BELOW THIS HEADER
+# MISC STUFF BELOW THIS HEAD WHICH MIGHT BE USEABLE
 
 
 So how do you describe things clearly and avoid repetition? Part of it has to do with having a **vocabulary** (words, concepts etc) that people can understand. When that is done you need to define/decide the key things that are important for a particular business domain and a Way of Working (**WoW**) that fits your organization.

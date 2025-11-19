@@ -183,6 +183,23 @@ My strong recommendation is to adopt an interative approach where you start with
 
 # TODO: CONTINUE WORK HERE
 
+## Scope
+
+
+
+## Stakeholders
+
+
+
+## Context
+
+
+
+## Timeline
+
+
+
+# OLD STUFF BELOW THIS HEADER
 
 
 So how do you describe things clearly and avoid repetition? Part of it has to do with having a **vocabulary** (words, concepts etc) that people can understand. When that is done you need to define/decide the key things that are important for a particular business domain and a Way of Working (**WoW**) that fits your organization.
@@ -460,16 +477,4 @@ The main ideas from Agile are based on Lean which is a word coined in the US 198
 
 A short way of describing it is **only change things which are contributing to waste**. Personally I think that is too shortsighted and I think that you should try to pave the way for future changes. This inevitably leads to a little waste since you can't predict exactly what future changes will be needed, but a business that never change will typically be rendered obsolete.
 
-## Scope
 
-
-
-## Stakeholders
-
-
-
-## Context
-
-
-
-## Timeline

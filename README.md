@@ -1,17 +1,53 @@
-<span style="color:red;font-size:20px">This is just a collection of my thoughts regarding architectural work in the IT-space and should only be used for inspiration. It is written without thoughts regarding outline, layout and spelling.</span>
+<text style="color:red;font-size:20px">This is just a collection of my thoughts regarding architectural work in the IT-space and should only be used for inspiration. The contents of this document is basically a brain dump of thoughts and ideas that have accumulated over the years and I just collect it here just in case it will be useful for anyone else.</text>
 
 # Architecture
-For me thoughts of "architecture" has been present in my mind for as long as I can remember. Maybe it's personality trait, but I wouldn't be surprised if it has something to do with how my father always created smart tools and workarounds for things when he worked on cars, boats and houses. For the most part it was as a hobby, but at times it was a sidle hustle that almost turned into a carrier. When I started working as a software developer the first thing I bought was a book about design patterns and things just progressed from there.
+For me thoughts of "architecture" has been present in my mind for as long as I can remember. Maybe it's personality trait, but I wouldn't be surprised if it has something to do with me watching how my father always created smart tools and workarounds for things when he worked on cars, boats and houses. For the most part it was as a hobby, but at times it was a sidle hustle that almost turned into a carrier. When I started working as a software developer the first thing I bought was a book about design patterns and things just progressed from there.
+
 Even when I was studying at a technical university I thought that the most important thing we were tought was not math, physics, programming etc, but rather how to analyze, categorize and solve different types of problems. The key word here is "**types**" which relates to design patterns and architecture in general.
 
-## The Why
-So why is finding those patters and problem "types" so important? Some has to do with the **[DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)** principle in software development which stands for **"Don't repeat yourself"** and is stated as "*Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.*" and some has to do with using abstractions that makes things clear when you describe what parts of a codebase or parts of a solution actually does. A Swedish writer Esaias Tegnér (1782-1846) once said "*det dunkelt sagda är det dunkelt tänkta*" which roughly translates to "*if you can't articulate something clearly, you probably haven't thought it through properly either*".
 
-So to summarize the two main points:
-- Describe things clearly
-- Don't repeat yourself
 
-## The How
+## Purpose
+
+### Purpose from a personal perspective
+On a personal level architecture is important to me since I have an analytical mind that **craves clear goals** and **dislikes waste**. I very much like the **[DRY principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)** in software development which stands for **"Don't repeat yourself"** and states that "*Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.*" A Swedish writer Esaias Tegnér (1782-1846) once said "*det dunkelt sagda är det dunkelt tänkta*" which roughly translates to the following:
+```
+if you can't articulate something clearly, you probably haven't thought it through properly either
+```
+So in general I want to see how what I'm doing a the moment is related to longterm goals and that those goals are clearly defined.
+
+### Purpose from an IT organizational perspective
+When it comes to the architectural work in an IT organization the purpose is to **create a structured, strategic foundation for technology and processes that support business goals**. It ensures that IT systems are aligned with the organization’s objectives, scalable, secure, and cost-effective. 
+
+Key purposes:
+1. Strategic Alignment
+    - Ensures IT investments and solutions support business strategy.
+    - Provides a common language and framework for business and IT collaboration.
+2. Standardization and Governance
+    - Defines principles, standards, and guidelines for technology use.
+    - Reduces complexity and duplication by enforcing consistency across systems.
+3. Risk Management
+    - Identifies and mitigates risks related to technology choices, compliance, and security.
+    - Supports regulatory adherence (e.g., GDPR, ISO 27001).
+4. Cost Optimization
+    - Avoids redundant systems and promotes reuse of components.
+    - Enables better forecasting and budgeting for IT initiatives.
+5. Scalability and Flexibility
+    - Designs architectures that can adapt to future business needs.
+    - Facilitates integration of new technologies without disrupting operations.
+6. Communication and Transparency
+    - Provides visual models and documentation for stakeholders.
+    - Improves decision-making by clarifying dependencies and impacts.
+
+In short, IT architecture work is about planning and governing the structure of systems, data, applications, and technology so that the organization can operate efficiently and evolve without chaos.
+
+
+
+
+
+
+
+## Approach
 So how do you describe things clearly and avoid repetition? Part of it has to do with having a **vocabulary** (words, concepts etc) that people can understand. When that is done you need to define/decide the key things that are important for a particular business domain and a Way of Working (**WoW**) that fits your organization.
 
 ### Define a good business domain vocabulary
@@ -236,7 +272,7 @@ class E,F,G crosscutting;
 linkStyle 0,1,2 stroke-width:3px;
 ```
 
-## Methods
+### Methods
 I was once the first hire and tech lead in a startup where we had no external capital. In the beginning we basically had no money in the bank and everything was based on our software licences. Everything we did had to generate value fast, but we also had to be mindful of that things had to bring long term value as well (or at least not hinder it). The result was that we didn't change things that worked, but when some existing process or software became too time consuming complex to work with we to steps to change and/or automate things. In the changes we made we also tried to include things which would lessen the inpact of future changes. Examples include the following:
 
 - Example 1: CRM
@@ -287,6 +323,16 @@ The main ideas from Agile are based on Lean which is a word coined in the US 198
 
 A short way of describing it is **only change things which are contributing to waste**. Personally I think that is too shortsighted and I think that you should try to pave the way for future changes. This inevitably leads to a little waste since you can't predict exactly what future changes will be needed, but a business that never change will typically be rendered obsolete.
 
-## Different types of architectures
+## Scope
 
-- [API Architectural Styles](API_Architectural_Styles.md)
+
+
+## Stakeholders
+
+
+
+## Context
+
+
+
+## Timeline

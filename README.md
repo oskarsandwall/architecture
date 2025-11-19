@@ -41,7 +41,48 @@ Key purposes:
 
 In short, IT architecture work is about planning and governing the structure of systems, data, applications, and technology so that the organization can operate efficiently and evolve without chaos.
 
+``` mermaid
+flowchart TB
+    subgraph BORDER [" "]
+        %% Business Layer
+        subgraph BL [Business Layer]
+            style BL fill:#FFD966,stroke:#333,stroke-width:2px,color:#000;
+            B1([Business Processes])
+            B2([Business Capabilities])
+        end
 
+        %% Application Layer
+        subgraph AL [Application Layer]
+            style AL fill:#9FC5E8,stroke:#333,stroke-width:2px,color:#000;
+            A1([CRM System])
+            A2([ERP System])
+        end
+
+        %% Data Layer
+        subgraph DL [Data Layer]
+            style DL fill:#93C47D,stroke:#333,stroke-width:2px,color:#000;
+            D1([Data Catalog])
+            D2([Master Data Management])
+        end
+
+        %% Technology Layer
+        subgraph TL [Technology Layer]
+            style TL fill:#B7B7B7,stroke:#333,stroke-width:2px,color:#000;
+            T1([Azure Cloud])
+            T2([On-Prem Servers])
+        end
+    end
+
+    %% Connections
+    B1 --> A1
+    B2 --> A2
+    A1 --> D1
+    A2 --> D2
+    D1 --> T1
+    D2 --> T2
+
+    linkStyle default stroke-width:2px,fill:none,stroke:black;
+```
 
 
 

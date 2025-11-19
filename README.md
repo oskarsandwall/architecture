@@ -43,7 +43,7 @@ In short, IT architecture work is about planning and governing the structure of 
 
 ``` mermaid
 flowchart TB
-    subgraph BORDER [" "]
+    subgraph BORDER ["IT Archiecture Layers"]
         %% Business Layer
         subgraph BL [Business Layer]
             style BL fill:#FFD966,stroke:#333,stroke-width:2px,color:#000;
@@ -80,6 +80,64 @@ flowchart TB
     A2 --> D2
     D1 --> T1
     D2 --> T2
+
+    linkStyle default stroke-width:2px,fill:none,stroke:black;
+```
+
+
+``` mermaid
+flowchart TB
+    subgraph BORDER ["IT Architecture Layers with Governance included"]
+        %% Governance Layer
+        subgraph G [Governance Layer]
+            style G fill:#F4CCCC,stroke:#333,stroke-width:2px,color:#000
+            G1([Architecture Board])
+            G2([Standards & Principles])
+            G3([Compliance Reviews])
+        end
+
+        %% Business Layer
+        subgraph B [Business Layer]
+            style B fill:#FFD966,stroke:#333,stroke-width:2px,color:#000
+            B1([Business Processes])
+            B2([Business Capabilities])
+        end
+
+        %% Application Layer
+        subgraph A [Application Layer]
+            style A fill:#9FC5E8,stroke:#333,stroke-width:2px,color:#000
+            A1([CRM System])
+            A2([ERP System])
+        end
+
+        %% Data Layer
+        subgraph D [Data Layer]
+            style D fill:#93C47D,stroke:#333,stroke-width:2px,color:#000
+            D1([Data Catalog])
+            D2([Master Data Management])
+        end
+
+        %% Technology Layer
+        subgraph T [Technology Layer]
+            style T fill:#B7B7B7,stroke:#333,stroke-width:2px,color:#000
+            T1([Azure Cloud])
+            T2([On-Prem Servers])
+        end
+    end
+
+    %% Relationships between layers
+    B1 -->|serves| A1
+    B2 -->|serves| A2
+    A1 -->|accesses| D1
+    A2 -->|accesses| D2
+    D1 -->|realizes| T1
+    D2 -->|realizes| T2
+
+    %% Governance influences all layers
+    G2 -.influences.-> B1
+    G2 -.influences.-> A1
+    G2 -.influences.-> D1
+    G2 -.influences.-> T1
 
     linkStyle default stroke-width:2px,fill:none,stroke:black;
 ```

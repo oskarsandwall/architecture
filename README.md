@@ -142,11 +142,49 @@ flowchart TB
     linkStyle default stroke-width:2px,fill:none,stroke:black;
 ```
 
-
-
-
-
 ## Approach
+Working with IT architecture to create a structured, strategic foundation involves aligning technology and processes with business objectives through a combination of approaches, frameworks, and processes.
+
+The approach is typically business-driven and holistic to ensure that technology decisions support organizational goals. Key principles include:
+- **Business Alignment**: Start from business strategy and capabilities, then derive technology needs.
+- **Layered Thinking**: Separate concerns into layers (Business, Data, Application, Technology) for clarity.
+- **Standardization & Governance**: Apply standards, principles, and policies to ensure consistency.
+- **Iterative Development**: Use cycles for continuous improvement rather than one-off projects.
+- **Cross-Cutting Concerns**: Embed security, compliance, and governance across all layers.
+
+### Frameworks
+Instead of trying to figure out everything from scratch yourself there are several established frameworks that you can use to guide you in your IT architecture work. A list of some frameworks can be found below. 
+
+Adopting one or more frameworks can give you a number of benfits:
+- **Consistency**: Common language and structure for architecture work.
+- **Governance**: Clear rules for decision-making and compliance.
+- **Alignment**: Ensures IT investments support business goals.
+- **Risk Reduction**: Addresses security, compliance, and operational risks.
+- **Scalability**: Frameworks provide reusable patterns for growth.
+
+Examples of established frameworks:
+- **TOGAF** (The Open Group Architecture Framework)
+    - Defines the Architecture Development Method (ADM) for creating and maintaining enterprise architecture.
+    - Organizes architecture into BDAT domains: Business, Data, Application, Technology.
+- **Zachman Framework**
+    - Provides a taxonomy for architecture artifacts based on perspectives (Planner, Owner, Designer, etc.) and aspects (What, How, Where, Who, When, Why).
+- **ArchiMate**
+    - A modeling language for visualizing relationships between business, application, and technology layers.
+- **ITIL & COBIT**
+    - ITIL focuses on service management; COBIT on governance and control.
+- **DAMA-DMBOK** (for data architecture)
+    - Guides data governance, metadata, and data quality practices.
+
+### Processes
+Frameworks give you tools that you can use, but you also need to define processes to ensure structured execution and goverance. TOGAF with its nine-phase sequential process can help you get started, but its important to relalise that its only a guide. If you after studying TOGAF decide to adopt it in your organization you must decide how to do it and how much to include. 
+
+My strong recommendation is to adopt an interative approach where you start with things that quickly gives you a positive ROI, and where it is easy to see how the change contributes to fulfilling architectural goals and vision. Don't forget to make sure that the processes are not only something that will be a theoretical thing, but rather something that will be followed by people in the organization.
+
+
+# TODO: CONTINUE WORK HERE
+
+
+
 So how do you describe things clearly and avoid repetition? Part of it has to do with having a **vocabulary** (words, concepts etc) that people can understand. When that is done you need to define/decide the key things that are important for a particular business domain and a Way of Working (**WoW**) that fits your organization.
 
 ### Define a good business domain vocabulary

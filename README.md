@@ -190,6 +190,44 @@ I read something that resonated with me somewhere that went something like this:
 Embed ROI into governance. Don't just approve designs - Measure their outcomes over time.
 ```
 
+#### Key Process Types in Architectural Work
+
+In architectural work (such as Enterprise Architecture), several types of processes are needed to ensure structure, governance, and alignment between business and IT. These processes typically fall into categories that support planning, design, implementation, and governance.
+
+- Architecture Governance Processes
+    - Define principles, standards, and compliance checks.
+    - Examples: Architecture Review Boards, Change Control, Compliance Assessments.
+- Architecture Development Processes
+    - Create and maintain architecture models and roadmaps.
+    - Examples: TOGAF ADM phases (Vision, Business Architecture, Data, Application, Technology).
+- Requirements Management
+    - Capture, validate, and trace business and technical requirements.
+    - Ensures architecture aligns with business needs.
+- Portfolio and Roadmap Management
+    - Plan and prioritize initiatives based on architecture strategy.
+    - Includes capability mapping and transition planning.
+- Technology Lifecycle Management
+    - Manage standards, platforms, and technology obsolescence.
+    - Examples: Technology refresh cycles, vendor management.
+- Risk and Security Management
+    - Identify and mitigate architectural risks.
+    - Integrate security and compliance into design.
+- Change and Impact Analysis
+    - Assess how changes affect existing architecture.
+    - Supports controlled evolution of systems.
+- Data and Metadata Management
+    - Define data models, lineage, and governance.
+    - Ensure consistency and quality across systems.
+- Integration and Interoperability Processes
+    - Define how systems communicate and share data.
+    - Includes API governance and interface standards.
+- Performance and KPI Monitoring
+    - Measure architecture effectiveness and business impact.
+    - Examples: Cost optimization, agility, compliance metrics.
+
+
+
+
 # TODO: CONTINUE WORK HERE
 
 ## Scope

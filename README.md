@@ -155,7 +155,7 @@ The approach is typically business-driven and holistic to ensure that technology
 ### Frameworks
 Instead of trying to figure out everything from scratch yourself there are several established frameworks that you can use to guide you in your IT architecture work. A list of some frameworks can be found below. 
 
-Adopting one or more frameworks can give you a number of benfits:
+Adopting one or more frameworks can give you a head start and gain a number of benfits:
 - **Consistency**: Common language and structure for architecture work.
 - **Governance**: Clear rules for decision-making and compliance.
 - **Alignment**: Ensures IT investments support business goals.
@@ -176,10 +176,19 @@ Examples of established frameworks:
     - Guides data governance, metadata, and data quality practices.
 
 ### Processes
-Frameworks give you tools that you can use, but you also need to define processes to ensure structured execution and goverance. TOGAF with its nine-phase sequential process can help you get started, but its important to relalise that its only a guide. If you after studying TOGAF decide to adopt it in your organization you must decide how to do it and how much to include. 
+Frameworks give you tools that you can use, but you also need to define processes to ensure structured execution and goverance. TOGAF with its nine-phase sequential process can help you get started, but its important to relalise that its only a guide. If you after studying a framework decide to adopt it in your organization you must decide how to do it and how much to include. 
 
-My strong recommendation is to adopt an interative approach where you start with things that quickly gives you a positive ROI, and where it is easy to see how the change contributes to fulfilling architectural goals and vision. Don't forget to make sure that the processes are not only something that will be a theoretical thing, but rather something that will be followed by people in the organization.
+My strong recommendation is to adopt an interative approach where you start with things that quickly gives you a positive ROI, and where it is easy to see how a change will contribute to fulfilling architectural goals and vision. Don't forget to make sure that the processes are not only something that will be a theoretical thing, but rather something that will be a practical help to people in the organization!
 
+#### ROIs
+I feel its also worth pointing out that measuring ROI is not allways so easy. For me ROI has to do with long term benefits like customer satisfaction, developer satisfaction, velocity, uptime, lead time and so on. Even architectural work needs some type of ROI. If we do architectural work that has no impact it is basically a waste except maybe as a learning experience.
+
+Sometimes multiple metrics are needed to determine if you have a positive ROI. Modifying a system to satisfy some customer demand might incure increased technical debt and make it less stable. The end result might be increased maintenance costs, increased lead times for future modifications and less satisfied employees. The short term effects might be good, but the long term effects might be very bad.
+
+I read something that resonated with me somewhere that went something like this:
+```
+Embed ROI into governance. Don't just approve designs - Measure their outcomes over time.
+```
 
 # TODO: CONTINUE WORK HERE
 
@@ -199,7 +208,17 @@ My strong recommendation is to adopt an interative approach where you start with
 
 
 
-# MISC STUFF BELOW THIS HEAD WHICH MIGHT BE USEABLE
+## Glossary
+- **EA: Enterprise Architecture** is a strategic discipline that defines how an organization’s business processes, information systems, data, and technology infrastructure fit together to support its goals. It provides a holistic view of the enterprise, ensuring that IT and business are aligned.
+
+- **Metadata management** is the practice of organizing, maintaining, and governing metadata—which is “data about data.” Metadata describes the characteristics, context, and structure of data so that it can be understood, discovered, and used effectively.
+
+- **ROI: Return on Investment**. It’s a key financial metric used to evaluate the efficiency or profitability of an investment. Essentially, ROI measures how much benefit (or return) you gain relative to the cost of the investment.
+
+- **TOGAF: The Open Group Architecture Framework**. It’s one of the most widely used frameworks for enterprise architecture (EA). Its purpose is to help organizations design, plan, implement, and govern their IT architecture in a structured and standardized way.
+
+
+# TEXT UNDER THIS HEADER HAS LITTLE STRUCTURE BUT MIGHT BE USABLE
 
 
 So how do you describe things clearly and avoid repetition? Part of it has to do with having a **vocabulary** (words, concepts etc) that people can understand. When that is done you need to define/decide the key things that are important for a particular business domain and a Way of Working (**WoW**) that fits your organization.

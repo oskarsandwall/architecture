@@ -1,4 +1,4 @@
-<text style="color:red;font-size:20px">This is just a collection of my thoughts regarding architectural work in the IT-space and should only be used for inspiration. The contents of this document is basically a brain dump of thoughts and ideas that have accumulated over the years and I just collect it here just in case it will be useful for anyone else.</text>
+[<text style="color:red;font-size:20px">This is just a collection of my thoughts regarding architectural work in the IT-space and should only be used for inspiration. The contents of this document is basically a brain dump of thoughts and ideas that have accumulated over the years and I just collect it here just in case it will be useful for anyone else.</text>
 
 # Architecture
 For me thoughts of "architecture" has been present in my mind for as long as I can remember. Maybe it's personality trait, but I wouldn't be surprised if it has something to do with me watching how my father always created smart tools and workarounds for things when he worked on cars, boats and houses. For the most part it was as a hobby, but at times it was a sidle hustle that almost turned into a carrier. When I started working as a software developer the first thing I bought was a book about design patterns and things just progressed from there.
@@ -535,3 +535,4 @@ The main ideas from Agile are based on Lean which is a word coined in the US 198
 A short way of describing it is **only change things which are contributing to waste**. Personally I think that is too shortsighted and I think that you should try to pave the way for future changes. This inevitably leads to a little waste since you can't predict exactly what future changes will be needed, but a business that never change will typically be rendered obsolete.
 
 
+](https://github.com/oskarsandwall/)
